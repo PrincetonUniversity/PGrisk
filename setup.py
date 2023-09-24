@@ -11,7 +11,7 @@ setuptools.setup(
 
     packages=['pgrisk'],
 
-    python_requires='>=3.8,<3.12',
+    python_requires='==3.8',
     install_requires=['numpy>1.21', 'pandas<2', 'scipy', 'dill', 'matplotlib',
                       'gurobipy'],
     )
