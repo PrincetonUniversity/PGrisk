@@ -138,7 +138,7 @@ class ShadowPriceSimulator(Simulator):
     def call_oracle(self) -> None:
         """Solve the real-time economic dispatch for the current time step."""
 
-        sced_model = self.solve_sced(hours_in_objective=self.sced_horizon,
+        sced_model = self.solve_sced(hours_in_objective=self.hours_in_objective,
                                      sced_horizon=self.sced_horizon)
 
         # save thermal output
