@@ -6,13 +6,13 @@ The underlying production cost modeling tools for running unit commitment and ec
 
 # Getting started
 ### Requirements
-+ Python 3.8 to 3.11
++ Python 3.8 to 3.10
 + [Gurobi](https://www.gurobi.com/) mixed-integer linear programming solver
 
 ### Installation
 First, obtain Vatic `v0.4.1-a1` by cloning the repository from command line:
 ```
-git clone git@github.com:PrincetonUniversity/Vatic.git -b v0.4.1-a1 --single-branch
+git clone https://github.com/PrincetonUniversity/Vatic.git -b v0.4.1-a1 --single-branch
 ```
 Next, download the testing grid [RTS-GMLC](https://github.com/GridMod/RTS-GMLC) and install Vatic by:
 ```
@@ -23,7 +23,7 @@ pip install .
 ```
 Finally, clone the repository and install PGrisk by running:
 ```
-git clone git@github.com:PrincetonUniversity/PGrisk.git
+git clone https://github.com/PrincetonUniversity/PGrisk.git
 cd PGrisk
 pip install .
 ```
